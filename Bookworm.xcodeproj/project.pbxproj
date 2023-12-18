@@ -14,6 +14,7 @@
 		86461E0B2B2EFC6B00D404BC /* BookModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86461E0A2B2EFC6B00D404BC /* BookModel.swift */; };
 		86461E0F2B2EFDB800D404BC /* AddBookView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86461E0E2B2EFDB800D404BC /* AddBookView.swift */; };
 		86461E112B2F413100D404BC /* RatingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86461E102B2F413100D404BC /* RatingView.swift */; };
+		86461E132B30A3E400D404BC /* EmojiRatingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86461E122B30A3E400D404BC /* EmojiRatingView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +26,7 @@
 		86461E0A2B2EFC6B00D404BC /* BookModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookModel.swift; sourceTree = "<group>"; };
 		86461E0E2B2EFDB800D404BC /* AddBookView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddBookView.swift; sourceTree = "<group>"; };
 		86461E102B2F413100D404BC /* RatingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatingView.swift; sourceTree = "<group>"; };
+		86461E122B30A3E400D404BC /* EmojiRatingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiRatingView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +64,7 @@
 				86461DDE2B2CB5E600D404BC /* ContentView.swift */,
 				86461E0E2B2EFDB800D404BC /* AddBookView.swift */,
 				86461E102B2F413100D404BC /* RatingView.swift */,
+				86461E122B30A3E400D404BC /* EmojiRatingView.swift */,
 				86461DE02B2CB5E800D404BC /* Assets.xcassets */,
 				86461DE22B2CB5E800D404BC /* Preview Content */,
 			);
@@ -150,6 +153,7 @@
 				86461DDD2B2CB5E600D404BC /* BookwormApp.swift in Sources */,
 				86461E0B2B2EFC6B00D404BC /* BookModel.swift in Sources */,
 				86461E112B2F413100D404BC /* RatingView.swift in Sources */,
+				86461E132B30A3E400D404BC /* EmojiRatingView.swift in Sources */,
 				86461E0F2B2EFDB800D404BC /* AddBookView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
