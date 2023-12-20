@@ -11,7 +11,7 @@ struct AddBookView: View {
     @Environment(\.modelContext) var modelContext
     @Environment(\.dismiss) var dismiss
     
-    @State private var titel = ""
+    @State private var title = ""
     @State private var author = ""
     @State private var genre = "Fantasy"
     @State private var review = ""
@@ -23,7 +23,7 @@ struct AddBookView: View {
         NavigationStack {
             Form {
                 Section {
-                    TextField("Name of book", text: $titel)
+                    TextField("Name of book", text: $title)
                     TextField("Author name", text: $author)
                     
                     Picker("Genre", selection: $genre) {
@@ -41,7 +41,7 @@ struct AddBookView: View {
                 
                 Section {
                     Button("Save the book") {
-                        let newBook = Book(titel: titel, author: author, genre: genre, review: review, rating: rating)
+                        let newBook = Book(title: title, author: author, genre: genre, review: review, rating: rating)
                         modelContext.insert(newBook)
                         dismiss()
                     }
