@@ -15,12 +15,14 @@ class Book {
     let genre: String
     let review: String
     let rating: Int
+    let date: Date
     
-    init(title: String, author: String, genre: String, review: String, rating: Int) {
+    init(title: String, author: String, genre: String, review: String, rating: Int, date: Date) {
         self.title = title
         self.author = author
         self.genre = genre
         self.review = review
         self.rating = rating
+        self.date = date
     }
 }

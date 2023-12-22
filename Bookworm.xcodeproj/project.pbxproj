@@ -65,9 +65,9 @@
 				86461E0A2B2EFC6B00D404BC /* BookModel.swift */,
 				86461DDE2B2CB5E600D404BC /* ContentView.swift */,
 				86461E0E2B2EFDB800D404BC /* AddBookView.swift */,
+				8686B5652B31C76000A59B32 /* DetailView.swift */,
 				86461E102B2F413100D404BC /* RatingView.swift */,
 				86461E122B30A3E400D404BC /* EmojiRatingView.swift */,
-				8686B5652B31C76000A59B32 /* DetailView.swift */,
 				86461DE02B2CB5E800D404BC /* Assets.xcassets */,
 				86461DE22B2CB5E800D404BC /* Preview Content */,
 			);
